@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+<body>
+    
+        <h1>Secuencia Fibonacci</h1>
+    <div id="entrada">
+        <label for="numero-fibonacci">Ingrese el número de la secuencia Fibonacci a generar:</label>
+        <input type="number" id="numero-fibonacci" min="1" max="50">
+        
+        <button id="btn-generar">Generar Secuencia</button>
+        
+        <button id="btn-limpiar">Limpiar</button>
+    </div>
+    <hr> <div id="output"> 
+       
+    </div>
+    
+    <div id="estadisticas">
+        <h2>Estadísticas</h2>
+        <p>Total de números generados: <strong id="stat-total">0</strong></p>
+        <p>Cantidad de números pares: <strong id="stat-pares">0</strong></p>
+        <p>Cantidad de números impares: <strong id="stat-impares">0</strong></p>
+        <p>Suma de todos los números: <strong id="stat-suma">0</strong></p>
+    </div>
+    
+    <hr>  
+    <div id="mensaje-error" class="error"></div> 
+
+    <div id="output">
+        </div>
+
+ 
+</body>
+</html>

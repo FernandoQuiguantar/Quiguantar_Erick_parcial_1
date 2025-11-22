@@ -1,0 +1,63 @@
+#output {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 15px; 
+    padding: 20px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.fibonacci-card {
+    width: 80px;  
+    height: 80px; 
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #e6f7ff; 
+    border: 2px solid #007bff; 
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.1);
+    
+}
+
+.fibonacci-card.par {
+    background-color: #bbdefb; /* Azul claro */
+    border-color: #2196f3;     /* Borde azul */
+    color: #1a237e;            /* Texto azul oscuro */
+}
+
+
+.fibonacci-card.impar {
+    background-color: #ffcdd2; /* Rojo claro */
+    border-color: #f44336;     /* Borde rojo */
+    color: #b71c1c;            /* Texto rojo oscuro */
+}
+.fibonacci-card .valor {
+
+    font-size: 2em; /* Número grande */
+    font-weight: bold;
+    color: inherit;; 
+    margin: 0; /* Eliminar margen predeterminado del párrafo */
+}
+
+#mensaje-error {
+    display: none; /* Oculto por defecto, se muestra con JavaScript */
+    background-color: #ffdddd;
+    color: #d8000c;
+    border: 1px solid #d8000c;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fibonacci-card .etiqueta-posicion {
+    font-size: 0.8em; 
+    font-weight: 500;
+    color: #666; 
+    margin: 0 0 5px 0; 
+    }
